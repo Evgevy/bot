@@ -5505,6 +5505,10 @@ h2.title {
   opacity: 1;
 }
 
+.login .custom-checkbox__text {
+  font-size: 16px;
+}
+
 .login__btn {
   max-width: 100%;
   width: 100%;
@@ -5545,7 +5549,7 @@ h2.title {
   width: 100%;
   margin: 0 auto;
   display: block;
-  padding: 70px 0;
+  padding: 170px 0;
 }
 
 .signup__title {
@@ -5662,6 +5666,10 @@ h2.title {
   opacity: 1;
 }
 
+.signup .custom-checkbox__text {
+  font-size: 16px;
+}
+
 .signup__btn {
   max-width: 100%;
   width: 100%;
@@ -5703,7 +5711,7 @@ h2.title {
   width: 100%;
   margin: 0 auto;
   display: block;
-  padding: 70px 0;
+  padding: 170px 0;
 }
 
 .recov__title {
@@ -5743,7 +5751,7 @@ h2.title {
 .recov__quest {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -5860,7 +5868,7 @@ h2.title {
   width: 100%;
   margin: 0 auto;
   display: block;
-  padding: 70px 0;
+  padding: 170px 0;
 }
 
 .good__title {
@@ -5889,7 +5897,7 @@ h2.title {
 .good__text {
   font-weight: 700;
   font-style: Bold;
-  font-size: 20px;
+  font-size: 22px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0%;
@@ -5900,7 +5908,7 @@ h2.title {
 .good__quest {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -6238,7 +6246,7 @@ h2.title {
   width: 100%;
   margin: 0 auto;
   display: block;
-  padding: 70px 0;
+  padding: 170px 0;
 }
 
 .step1__title {
@@ -6280,7 +6288,7 @@ h2.title {
 .step1__text {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0%;
@@ -6291,7 +6299,7 @@ h2.title {
 .step1__quest {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -6597,7 +6605,7 @@ h2.title {
 .step2__name {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 15px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -6660,7 +6668,7 @@ h2.title {
   list-style: disc;
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -6670,7 +6678,7 @@ h2.title {
 .step2__card span {
   font-weight: 500;
   font-style: Italic;
-  font-size: 11px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -6748,7 +6756,7 @@ h2.title {
 .step3__text {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0%;
@@ -6759,7 +6767,7 @@ h2.title {
 .step3__quest {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -6944,7 +6952,7 @@ h2.title {
 .step9__quest {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7082,7 +7090,7 @@ h2.title {
 .step9__name {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 15px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7145,7 +7153,7 @@ h2.title {
   list-style: disc;
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7155,7 +7163,7 @@ h2.title {
 .step9__card span {
   font-weight: 500;
   font-style: Italic;
-  font-size: 11px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7168,7 +7176,7 @@ h2.title {
 .step9__link {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7243,13 +7251,13 @@ h2.title {
   width: 100%;
   margin: 0 auto;
   display: block;
-  padding: 90px 0;
+  padding: 190px 0;
 }
 
 .sms__title {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -7260,7 +7268,7 @@ h2.title {
 .sms__description {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7319,7 +7327,7 @@ h2.title {
 .sms__text {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7331,7 +7339,7 @@ h2.title {
 .sms__timer {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7353,7 +7361,7 @@ h2.title {
 .sms__button {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7414,7 +7422,7 @@ h2.title {
 .first__label {
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 100%;
   letter-spacing: 0px;
@@ -7517,7 +7525,7 @@ h2.title {
 .first__top-text {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7613,7 +7621,7 @@ h2.title {
 .first__desc {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7635,7 +7643,7 @@ h2.title {
 .first__link {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 13px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7644,6 +7652,7 @@ h2.title {
   padding: 10px 20px;
   border-radius: 100px;
   color: rgb(255, 255, 255);
+  background: rgb(114, 182, 243);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -7664,13 +7673,20 @@ h2.title {
   padding: 20px;
   position: relative;
   margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .first .message-text {
   max-width: 500px;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -7679,9 +7695,8 @@ h2.title {
 }
 
 .first .attach-button {
-  position: absolute;
-  right: 20px;
-  bottom: 15px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -7954,7 +7969,7 @@ h2.title {
 .second__top-text {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -8072,12 +8087,13 @@ h2.title {
 .second__link {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 13px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
   text-align: center;
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   padding: 10px 20px;
   border-radius: 100px;
   color: rgb(255, 255, 255);
@@ -8101,13 +8117,20 @@ h2.title {
   padding: 20px;
   position: relative;
   margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .second .message-text {
   max-width: 500px;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -8116,9 +8139,8 @@ h2.title {
 }
 
 .second .attach-button {
-  position: absolute;
-  right: 20px;
-  bottom: 15px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -8217,7 +8239,7 @@ h2.title {
 .men__label {
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 100%;
   letter-spacing: 0px;
@@ -8436,6 +8458,7 @@ h2.title {
   text-align: center;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   border-radius: 100px;
   padding: 10px 15px;
   -webkit-transition: 0.3s;
@@ -8587,27 +8610,6 @@ h2.title {
   margin-bottom: 30px;
 }
 
-.men__link {
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 12px;
-  leading-trim: CAP_HEIGHT;
-  line-height: 130%;
-  letter-spacing: 0px;
-  text-align: center;
-  border: 1px solid rgb(180, 209, 235);
-  padding: 10px 20px;
-  border-radius: 100px;
-  color: rgb(255, 255, 255);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.men__link:hover {
-  opacity: 0.8;
-}
-
 .men form {
   margin-top: auto;
 }
@@ -8620,6 +8622,13 @@ h2.title {
   position: relative;
   margin-bottom: 10px;
   width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .men .message-text {
@@ -8635,9 +8644,8 @@ h2.title {
 }
 
 .men .attach-button {
-  position: absolute;
-  right: 20px;
-  bottom: 15px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -8806,6 +8814,7 @@ h2.title {
   text-align: center;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   border-radius: 100px;
   padding: 10px 20px;
   -webkit-transition: 0.3s;
@@ -8930,7 +8939,7 @@ h2.title {
 .first1__label {
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 100%;
   letter-spacing: 0px;
@@ -9002,7 +9011,7 @@ h2.title {
 
 .first1__right {
   width: 70%;
-  padding: 30px 0 30px 120px;
+  padding: 30px 0 30px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9033,7 +9042,7 @@ h2.title {
 .first1__top-text {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -9078,7 +9087,7 @@ h2.title {
 }
 
 .first1__bottom {
-  padding: 130px 0 0;
+  padding: 100px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9129,7 +9138,7 @@ h2.title {
 .first1__desc {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -9151,7 +9160,7 @@ h2.title {
 .first1__link {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 13px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -9160,6 +9169,7 @@ h2.title {
   padding: 10px 20px;
   border-radius: 100px;
   color: rgb(255, 255, 255);
+  background: rgb(114, 182, 243);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -9193,7 +9203,7 @@ h2.title {
   max-width: 500px;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -9484,7 +9494,7 @@ h2.title {
 .second2__top-text {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -9602,12 +9612,13 @@ h2.title {
 .second2__link {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 13px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
   text-align: center;
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   padding: 10px 20px;
   border-radius: 100px;
   color: rgb(255, 255, 255);
@@ -9644,7 +9655,7 @@ h2.title {
   max-width: 500px;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -10053,12 +10064,13 @@ h2.title {
 .second3__link {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 13px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
   text-align: center;
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   padding: 10px 20px;
   border-radius: 100px;
   color: rgb(255, 255, 255);
@@ -10074,7 +10086,7 @@ h2.title {
 .second3__bottom-text-red p {
   font-weight: 700;
   font-style: Bold;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -10106,7 +10118,7 @@ h2.title {
   max-width: 500px;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -10121,7 +10133,7 @@ h2.title {
 .second3 .message-text span {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -10457,6 +10469,7 @@ h2.title {
   text-align: center;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   border-radius: 100px;
   padding: 10px 15px;
   -webkit-transition: 0.3s;
@@ -10613,7 +10626,7 @@ h2.title {
   margin-bottom: 30px;
 }
 
-.men2__link {
+.men2__bottom-link {
   font-weight: 500;
   font-style: Medium;
   font-size: 12px;
@@ -10622,6 +10635,7 @@ h2.title {
   letter-spacing: 0px;
   text-align: center;
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   padding: 10px 20px;
   border-radius: 100px;
   color: rgb(255, 255, 255);
@@ -10663,7 +10677,7 @@ h2.title {
   max-width: 500px;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -10865,6 +10879,7 @@ h2.title {
   text-align: center;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(180, 209, 235);
+  background: rgb(114, 182, 243);
   border-radius: 100px;
   padding: 10px 20px;
   -webkit-transition: 0.3s;
@@ -11018,7 +11033,7 @@ h2.title {
 .lk__label {
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 100%;
   letter-spacing: 0px;
@@ -11042,7 +11057,7 @@ h2.title {
 .lk__link-left {
   font-weight: 400;
   font-style: Regular;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: NONE;
   line-height: 110%;
   letter-spacing: 0px;
@@ -11067,7 +11082,7 @@ h2.title {
 
 .lk__right {
   width: 70%;
-  padding: 30px 0 30px 120px;
+  padding: 30px 0 30px 115px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11101,6 +11116,11 @@ h2.title {
   transform: translateX(calc(-50vw + 50%));
 }
 
+.lk__icon svg {
+  width: 35px;
+  height: 35px;
+}
+
 .lk__bottom {
   margin-top: 30px;
 }
@@ -11108,7 +11128,7 @@ h2.title {
 .lk__about {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11138,7 +11158,7 @@ h2.title {
 .lk .custom-input input::-webkit-input-placeholder {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11148,7 +11168,7 @@ h2.title {
 .lk .custom-input input::-moz-placeholder {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11158,7 +11178,7 @@ h2.title {
 .lk .custom-input input:-ms-input-placeholder {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11168,7 +11188,7 @@ h2.title {
 .lk .custom-input input::-ms-input-placeholder {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11178,7 +11198,7 @@ h2.title {
 .lk .custom-input input::placeholder {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11200,11 +11220,12 @@ h2.title {
 .lk .custom-select__text {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
   color: rgb(142, 142, 147);
+  text-align: left;
 }
 
 .lk .custom-select__icon {
@@ -11225,12 +11246,17 @@ h2.title {
   border-radius: 20px;
   height: auto;
   padding: 15px 20px;
+  display: none;
+}
+
+.lk .custom-select.is-open .custom-select__list {
+  display: block;
 }
 
 .lk .custom-select__item {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11292,7 +11318,7 @@ h2.title {
 .how__label {
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 100%;
   letter-spacing: 0px;
@@ -11316,7 +11342,7 @@ h2.title {
 .how__link-left {
   font-weight: 400;
   font-style: Regular;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: NONE;
   line-height: 110%;
   letter-spacing: 0px;
@@ -11341,7 +11367,7 @@ h2.title {
 
 .how__right {
   width: 70%;
-  padding: 30px 0 30px 120px;
+  padding: 30px 0 30px 115px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11408,7 +11434,7 @@ h2.title {
 .how__tone {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11419,7 +11445,7 @@ h2.title {
 .how__bottom-content span {
   font-weight: 700;
   font-style: Bold;
-  font-size: 12px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11446,7 +11472,7 @@ h2.title {
 .how__bottom-content li {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11456,7 +11482,7 @@ h2.title {
 .how__tsmal {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11645,7 +11671,7 @@ h2.title {
 .plans__title {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -11655,7 +11681,7 @@ h2.title {
 .plans__text {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11665,7 +11691,7 @@ h2.title {
 .plans__bottom span {
   font-weight: 700;
   font-style: Bold;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11691,7 +11717,7 @@ h2.title {
   list-style: disc;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11700,7 +11726,7 @@ h2.title {
 .plans__text-red {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11716,7 +11742,7 @@ h2.title {
 .plans__text-small {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11726,11 +11752,11 @@ h2.title {
 .plans__text1 {
   font-weight: 600;
   font-style: Semibold;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
-  max-width: 375px;
+  max-width: 450px;
   margin: 0 0 30px;
 }
 
@@ -11794,7 +11820,7 @@ h2.title {
 .plans__name {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 15px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11857,7 +11883,7 @@ h2.title {
   list-style: disc;
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 15px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11867,7 +11893,7 @@ h2.title {
 .plans__card span {
   font-weight: 500;
   font-style: Italic;
-  font-size: 11px;
+  font-size: 13px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11880,7 +11906,7 @@ h2.title {
 .plans__pod {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11914,7 +11940,7 @@ h2.title {
 .plans__text-bottom-small {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -11976,7 +12002,7 @@ h2.title {
 .got__label {
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 100%;
   letter-spacing: 0px;
@@ -12000,7 +12026,7 @@ h2.title {
 .got__link-left {
   font-weight: 400;
   font-style: Regular;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: NONE;
   line-height: 110%;
   letter-spacing: 0px;
@@ -12092,7 +12118,7 @@ h2.title {
 .got__title {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12155,7 +12181,7 @@ h2.title {
 .exit__label {
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 100%;
   letter-spacing: 0px;
@@ -12179,7 +12205,7 @@ h2.title {
 .exit__link-left {
   font-weight: 400;
   font-style: Regular;
-  font-size: 16px;
+  font-size: 18px;
   leading-trim: NONE;
   line-height: 110%;
   letter-spacing: 0px;
@@ -12271,7 +12297,7 @@ h2.title {
 .exit__title {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -12282,7 +12308,7 @@ h2.title {
 .exit__text {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12497,7 +12523,7 @@ h2.title {
 .tarif1__title {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -12507,7 +12533,7 @@ h2.title {
 .tarif1__text {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12517,7 +12543,7 @@ h2.title {
 .tarif1__bottom span {
   font-weight: 700;
   font-style: Bold;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12543,46 +12569,20 @@ h2.title {
   list-style: disc;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
-}
-
-.tarif1__text-red {
-  font-weight: 800;
-  font-style: ExtraBold;
-  font-size: 14px;
-  leading-trim: CAP_HEIGHT;
-  line-height: 130%;
-  letter-spacing: 0px;
-  color: rgb(58, 58, 58);
-  margin: 0 0 30px;
-}
-
-.tarif1__text-red span {
-  display: inline;
-  color: rgb(255, 64, 38);
-}
-
-.tarif1__text-small {
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 14px;
-  leading-trim: CAP_HEIGHT;
-  line-height: 130%;
-  letter-spacing: 0px;
-  margin: 0 0 20px;
 }
 
 .tarif1__text1 {
   font-weight: 600;
   font-style: Semibold;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
-  max-width: 375px;
+  max-width: 450px;
   margin: 0 0 30px;
 }
 
@@ -12633,7 +12633,7 @@ h2.title {
 .tarif1__name {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 15px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12700,7 +12700,7 @@ h2.title {
   list-style: disc;
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12710,7 +12710,7 @@ h2.title {
 .tarif1__card span {
   font-weight: 500;
   font-style: Italic;
-  font-size: 11px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12723,7 +12723,7 @@ h2.title {
 .tarif1__pod {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12757,7 +12757,7 @@ h2.title {
 .tarif1__text-bottom-small {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12935,7 +12935,7 @@ h2.title {
 .tarif2__title {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 25px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -12946,7 +12946,7 @@ h2.title {
 .tarif2__text {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -12961,7 +12961,7 @@ h2.title {
 .tarif2__text-small {
   font-weight: 600;
   font-style: Semibold;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -12974,13 +12974,13 @@ h2.title {
   width: 100%;
   margin: 0 auto;
   display: block;
-  padding: 300px 0;
+  padding: 200px 0;
 }
 
 .extend__wrapper span {
   font-weight: 700;
   font-style: Bold;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13006,7 +13006,7 @@ h2.title {
   list-style: disc;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13016,7 +13016,7 @@ h2.title {
 .extend__title {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -13027,7 +13027,7 @@ h2.title {
 .extend__text {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13094,7 +13094,7 @@ h2.title {
 .cancel__wrapper span {
   font-weight: 700;
   font-style: Bold;
-  font-size: 12px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13120,7 +13120,7 @@ h2.title {
   list-style-type: decimal;
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13130,7 +13130,7 @@ h2.title {
 .cancel__title {
   font-weight: 700;
   font-style: Bold;
-  font-size: 22px;
+  font-size: 24px;
   leading-trim: CAP_HEIGHT;
   line-height: 120%;
   letter-spacing: 0%;
@@ -13141,7 +13141,7 @@ h2.title {
 .cancel__text {
   font-weight: 800;
   font-style: ExtraBold;
-  font-size: 14px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13210,7 +13210,7 @@ h2.title {
 .cancel__element span {
   font-weight: 500;
   font-style: Medium;
-  font-size: 12px;
+  font-size: 14px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13255,7 +13255,7 @@ h2.title {
 .confirm__text {
   font-weight: 700;
   font-style: Bold;
-  font-size: 12px;
+  font-size: 16px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13367,7 +13367,7 @@ h2.title {
 
 .full__right {
   width: 70%;
-  padding: 30px 0 30px 120px;
+  padding: 30px 0 30px 115px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13434,7 +13434,7 @@ h2.title {
 .full__title {
   font-weight: 500;
   font-style: Medium;
-  font-size: 16px;
+  font-size: 20px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13455,15 +13455,15 @@ h2.title {
 .full__bottom li {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 1fr 1fr;
-  grid-template-columns: 2fr 1fr 1fr;
+  -ms-grid-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   gap: 15px;
 }
 
 .full__name {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13474,7 +13474,7 @@ h2.title {
 .full__pus {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13482,10 +13482,15 @@ h2.title {
   margin: 0;
 }
 
+.full__pus--non {
+  white-space: nowrap;
+}
+
 .full__pus span {
+  white-space: wrap;
   font-weight: 400;
   font-style: Regular;
-  font-size: 10px;
+  font-size: 12px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -13495,7 +13500,7 @@ h2.title {
 .full__change {
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 18px;
   leading-trim: CAP_HEIGHT;
   line-height: 130%;
   letter-spacing: 0px;
@@ -14672,13 +14677,6 @@ body.modal-open {
     grid-template-columns: 1fr 1fr;
   }
 
-  .plans__cards {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 820px) {
   .men__top::after {
     min-height: 330px;
   }
@@ -14698,6 +14696,13 @@ body.modal-open {
     width: 100%;
   }
 
+  .plans__cards {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 820px) {
   .men2__top::after {
     min-height: 330px;
   }
@@ -15089,10 +15094,6 @@ body.modal-open {
     align-items: start;
   }
 
-  .men__link {
-    width: 100%;
-  }
-
   .men .message-text {
     max-width: 350px;
   }
@@ -15225,7 +15226,7 @@ body.modal-open {
     align-items: start;
   }
 
-  .men2__link {
+  .men2__bottom-link {
     width: 100%;
   }
 
@@ -16015,7 +16016,7 @@ body.modal-open {
   }
 
   .exit__label {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .tarif1__left {
@@ -16283,6 +16284,11 @@ body.modal-open {
     left: -20px;
   }
 
+  .men__top-link {
+    font-size: 12px;
+    white-space: wrap;
+  }
+
   .men .message-text {
     max-width: 100px;
   }
@@ -16327,6 +16333,11 @@ body.modal-open {
 
   .men2__top::after {
     left: -20px;
+  }
+
+  .men2__top-link {
+    white-space: wrap;
+    font-size: 12px;
   }
 
   .men2__button-up svg {
@@ -16425,7 +16436,7 @@ body.modal-open {
   }
 
   .exit__link-left {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .exit__right {
