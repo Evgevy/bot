@@ -10979,8 +10979,7 @@ h2.title {
 }
 
 .lk {
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
   min-height: 100vh;
 }
 
