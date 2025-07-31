@@ -11499,6 +11499,10 @@ h2.title {
   margin: 50px 0 0;
 }
 
+.how .accordion-toggle {
+  display: none;
+}
+
 .plans {
   overflow-x: hidden;
   overflow-y: auto;
@@ -14808,6 +14812,99 @@ body.modal-open {
   }
 }
 
+@media (max-width: 768px) {
+  .how .accordion-header {
+    cursor: pointer;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+  }
+
+  .how .accordion-toggle {
+    display: block;
+    font-size: 30px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  }
+
+  .how .accordion-header.how__tone.active .accordion-toggle {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .how .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s ease;
+    -o-transition: max-height 0.3s ease;
+    transition: max-height 0.3s ease;
+  }
+
+  .how .accordion-content.show {
+    max-height: 100%;
+    position: static;
+    overflow: visible;
+    opacity: 1;
+  }
+
+  .how .accordion-content span {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  .how .accordion-content .how__tsmal {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .how .accordion-content li {
+    font-size: 16px;
+  }
+
+  .how .accordion-content:not(.show) {
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 389px) {
+  .how .accordion-header {
+    font-size: 14px;
+  }
+
+  .how .accordion-toggle {
+    font-size: 20px;
+  }
+
+  .how .accordion-content span {
+    font-size: 13px;
+  }
+
+  .how .accordion-content .how__tsmal {
+    font-size: 13px;
+  }
+
+  .how .accordion-content li {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 767px) {
   h2.title {
     font-size: 30px;
@@ -15247,6 +15344,10 @@ body.modal-open {
 
   .how__wrapper {
     height: 100%;
+  }
+
+  .how__big-text {
+    font-size: 16px;
   }
 
   .plans__wrapper {
