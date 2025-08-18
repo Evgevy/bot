@@ -13977,7 +13977,7 @@ body.modal-open {
 .phone .main-nav__toggle span:nth-child(1) {
   width: 15px;
   top: 7px;
-  height: 2px;
+  height: 3px;
 }
 
 .phone__menu {
@@ -14519,6 +14519,47 @@ body.modal-open {
 
 .phone__up:hover svg {
   opacity: 0.8;
+}
+
+.phone__middle {
+  margin-bottom: 200px;
+}
+
+.phone__dialog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.phone .phone__dialog-item .phone__user {
+  background: transparent;
+}
+
+.phone .phone__dialog-item .phone__user p {
+  font-weight: 590;
+  font-style: Semibold;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.phone__dialog-text {
+  font-weight: 400;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 27px;
+  letter-spacing: -0.1px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding-left: 38px;
 }
 
 .header {
