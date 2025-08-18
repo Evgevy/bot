@@ -13993,7 +13993,7 @@ body.modal-open {
   position: fixed;
   left: 0;
   top: 0;
-  height: 100vh;
+  height: 100%;
   overflow: auto;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
