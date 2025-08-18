@@ -3286,9 +3286,6 @@ h2.title {
   position: relative;
   width: 100%;
   z-index: 3;
-  background: rgba(33, 33, 33, 0.5);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header__wrapper {
@@ -3518,8 +3515,6 @@ h2.title {
 .header .main-nav__toggle {
   position: relative;
   display: none;
-  width: 40px;
-  height: 40px;
   padding: 0;
   cursor: pointer;
   -webkit-user-select: none;
@@ -7389,7 +7384,7 @@ h2.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .first__left {
@@ -7762,7 +7757,7 @@ h2.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .second__left {
@@ -8906,7 +8901,7 @@ h2.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .first1__left {
@@ -8923,6 +8918,7 @@ h2.title {
   -ms-flex-align: center;
   align-items: center;
   padding: 30px 30px 30px 0;
+  min-height: 100vh;
 }
 
 .first1__left::after {
@@ -9286,7 +9282,7 @@ h2.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .second2__left {
@@ -13931,6 +13927,610 @@ body.modal-open {
   overflow: hidden;
 }
 
+.phone {
+  display: none;
+  background: transparent;
+}
+
+.phone__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.phone__top {
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone__close {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+}
+
+.phone__close svg {
+  width: 25px;
+  height: 25px;
+}
+
+.phone .main-nav__toggle span {
+  background: rgb(0, 0, 0);
+  width: 22px;
+  height: 3px;
+}
+
+.phone .main-nav__toggle span:nth-child(1) {
+  width: 15px;
+  top: 7px;
+  height: 2px;
+}
+
+.phone__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  background: rgb(107, 161, 218);
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.phone__left {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.phone__label {
+  font-weight: 590;
+  font-style: Semibold;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+.phone__label-menu {
+  font-weight: 600;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: CAP_HEIGHT;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  margin: 0 0 10px;
+}
+
+.phone #edit svg {
+  width: 24px;
+  height: 24px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.phone__left-btn {
+  max-width: 155px;
+  width: 100%;
+  background: rgb(254, 255, 255);
+  border-radius: 60px;
+  padding: 8px;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.phone__left-btn svg {
+  width: 24px;
+  height: 24px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.phone__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: auto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: CAP_HEIGHT;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.phone__chats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: self-start;
+  -ms-flex-align: self-start;
+  align-items: self-start;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.phone__chats p {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: CAP_HEIGHT;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: rgb(29, 29, 31);
+  margin: 0 0 15px;
+}
+
+.phone__chats span {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: CAP_HEIGHT;
+  line-height: 120%;
+  letter-spacing: 0%;
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(58, 58, 58);
+}
+
+.phone__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  background: rgb(180, 209, 235);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.phone__user img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.phone__user p {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+  margin: 0;
+}
+
+.phone__left-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.phone__right {
+  padding: 60px 0 30px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 70%;
+}
+
+.phone__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone__form form {
+  position: relative;
+}
+
+.phone__form form input {
+  background-color: rgb(254, 255, 255);
+  border-radius: 60px;
+  padding: 14px;
+  padding-left: 45px;
+  border: none;
+  width: 190px;
+}
+
+.phone__form form input::-webkit-input-placeholder {
+  padding-left: 0px;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+}
+
+.phone__form form input::-moz-placeholder {
+  padding-left: 0px;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+}
+
+.phone__form form input:-ms-input-placeholder {
+  padding-left: 0px;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+}
+
+.phone__form form input::-ms-input-placeholder {
+  padding-left: 0px;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+}
+
+.phone__form form input::placeholder {
+  padding-left: 0px;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+}
+
+.phone__form form button {
+  position: absolute;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 18px;
+}
+
+.phone__form form button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.phone__left-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.phone__left-bottom img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.phone__left-bottom p {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: rgb(58, 58, 58);
+  margin: 0;
+}
+
+.phone__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+.phone__bottom-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.phone__bottom-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2px;
+  background: rgb(180, 209, 235);
+  padding: 13px 16px;
+  border-radius: 14px;
+}
+
+.phone__bottom-item p {
+  font-weight: 590;
+  font-style: Semibold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 21px;
+  letter-spacing: -0.4px;
+  vertical-align: middle;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.phone__bottom-item span {
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 21px;
+  letter-spacing: -0.4px;
+  vertical-align: middle;
+  color: rgba(60, 60, 67, 0.6);
+}
+
+.phone__form-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  background: rgb(180, 209, 235);
+  border: 1px solid rgb(229, 229, 234);
+  border-radius: 32px;
+  padding: 13px 13px 13px 9px;
+  margin-bottom: 32px;
+  max-height: 200px;
+}
+
+.phone .custom-textarea {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.phone .custom-textarea textarea {
+  padding: 0;
+  color: black;
+  height: 25px;
+  max-height: 200px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.phone .custom-textarea textarea::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.phone .custom-textarea textarea::-moz-placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.phone .custom-textarea textarea:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.phone .custom-textarea textarea::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.phone .custom-textarea textarea::placeholder {
+  font-weight: 400;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.phone__button-menu {
+  position: relative;
+}
+
+.phone__dop-menu {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: rgb(180, 209, 235);
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid rgb(229, 229, 234);
+  z-index: 1;
+  left: -14px;
+  top: -150px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.phone__dop-menu button svg {
+  width: 24px;
+  height: 24px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.phone__dop-menu.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.phone__plus svg {
+  width: 21px;
+  height: 21px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.phone__plus:hover svg {
+  opacity: 0.8;
+}
+
+.phone__up svg {
+  width: 22px;
+  height: 22px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.phone__up:hover svg {
+  opacity: 0.8;
+}
+
+.header {
+  background: transparent;
+}
+
+.header.is-open .phone__menu {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
 @media screen and (max-width: 1440px) {
   .catalog__image {
     margin-left: 30px;
@@ -14665,6 +15265,14 @@ body.modal-open {
   .full-modal__top::after {
     left: -30px;
   }
+
+  .phone__right {
+    padding: 30px 0 30px 30px;
+  }
+
+  .phone__form form input {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -14748,6 +15356,16 @@ body.modal-open {
   }
 
   .men2__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .phone__form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -15377,6 +15995,18 @@ body.modal-open {
   .full-modal__wrapper {
     height: 100%;
   }
+
+  .phone__left-btn {
+    font-size: 12px;
+  }
+
+  .phone__profile {
+    font-size: 14px;
+  }
+
+  .header {
+    background: transparent;
+  }
 }
 
 @media screen and (max-width: 661px) {
@@ -15553,6 +16183,18 @@ body.modal-open {
     gap: 20px;
     max-width: 215px;
   }
+
+  .phone__left-btn {
+    width: 118px;
+  }
+
+  .phone__profile {
+    gap: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -15604,6 +16246,26 @@ body.modal-open {
   .plans__cards {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .phone__form form input::-webkit-input-placeholder {
+    font-size: 0;
+  }
+
+  .phone__form form input::-moz-placeholder {
+    font-size: 0;
+  }
+
+  .phone__form form input:-ms-input-placeholder {
+    font-size: 0;
+  }
+
+  .phone__form form input::-ms-input-placeholder {
+    font-size: 0;
+  }
+
+  .phone__form form input::placeholder {
+    font-size: 0;
   }
 }
 
@@ -15708,6 +16370,12 @@ body.modal-open {
 
   .men2__button-up {
     right: -30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .phone {
+    display: block;
   }
 }
 
@@ -16170,6 +16838,23 @@ body.modal-open {
   .full-modal__label {
     font-size: 14px;
   }
+
+  .phone__left-btn svg {
+    display: none;
+  }
+
+  .phone__left-btn {
+    width: 100%;
+  }
+
+  .phone__user img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .phone__user p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -16245,6 +16930,10 @@ body.modal-open {
   }
 
   .men2__left-btn {
+    padding: 4px;
+  }
+
+  .phone__left-btn {
     padding: 4px;
   }
 }
@@ -16404,6 +17093,13 @@ body.modal-open {
 
   .first1 .message-text {
     max-width: 100px;
+  }
+
+  .first1__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .second2__right {
@@ -16593,6 +17289,22 @@ body.modal-open {
 
   .full-modal__top::after {
     left: -20px;
+  }
+
+  .phone__right {
+    padding: 30px 0 30px 20px;
+  }
+
+  .phone__bottom-item p {
+    font-size: 14px;
+  }
+
+  .phone__bottom-item span {
+    font-size: 14px;
+  }
+
+  .phone__form-content {
+    gap: 10px;
   }
 }
 
