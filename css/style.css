@@ -3055,6 +3055,11 @@ body {
   background-color: #ffffff;
 }
 
+body.open {
+  overflow: hidden;
+  height: 100vh;
+}
+
 a {
   color: #000000;
   text-decoration: none;
@@ -17038,8 +17043,8 @@ body.modal-open {
 
   .full2__left {
     width: 400px;
-    min-height: auto;
     height: 100vh;
+    overflow-y: auto;
     -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
