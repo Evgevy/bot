@@ -17043,14 +17043,13 @@ body.modal-open {
 
   .full2__left {
     width: 400px;
-    height: 100%;
+    min-height: 100vh;
     -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
     position: fixed;
     left: 0;
     padding: 30px;
-    overflow: auto;
     z-index: 999;
   }
 
