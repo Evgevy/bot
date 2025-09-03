@@ -14599,7 +14599,6 @@ body.modal-open {
   -ms-flex-align: center;
   align-items: center;
   padding: 30px 30px 30px 0;
-  min-height: 100vh;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
