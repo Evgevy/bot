@@ -14838,6 +14838,11 @@ body.modal-open {
   gap: 15px;
 }
 
+.full2__bottom li:last-child {
+  margin-top: -10px;
+  gap: 5px;
+}
+
 .full2__name {
   font-weight: 500;
   font-style: Medium;
@@ -14870,7 +14875,7 @@ body.modal-open {
   letter-spacing: 0px;
   background: rgb(180, 209, 235);
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 17px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -15938,7 +15943,7 @@ body.modal-open {
   .full2__bottom li {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 15px;
   }
 }
 
